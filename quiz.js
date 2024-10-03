@@ -1,4 +1,4 @@
-function CheckAnswer() {
+function checkAnswer() {
     const correctAnswer = "4";
 
     const userAnswer = document.querySelector('input[name = "quiz"]:checked  ').value;
@@ -12,4 +12,4 @@ function CheckAnswer() {
 }
 
 let btn = document.getElementById('submit-answer');
-btn.addEventListener('click', CheckAnswer);
+btn.addEventListener('click', checkAnswer);
